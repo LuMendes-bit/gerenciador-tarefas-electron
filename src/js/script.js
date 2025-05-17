@@ -1,3 +1,10 @@
+var meuInput = document.getElementById("input-task")
+meuInput.addEventListener("keypress",function(event){
+    if(event.key == "Enter") {
+        addTask()
+    }
+})
+
 function addTask() {
     //console.log("Entrou na função addTask")
     //alert("Função de adicionar tarefa")
